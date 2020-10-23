@@ -7,11 +7,11 @@ featured_image: 'images/works/2017 - Collecting Thoughts and Pieces.jpg'
 ---
 
 <div class="gallery" data-columns="3">
-	<img src="/images/works/2016 - Abstract 1.jpg">
-	<img src="/images/works/2016 - Ice.png">
-	<img src="/images/works/2016 - Katie and Doug.JPG">
-	<img src="/images/works/2016 - Keyhole.jpg">
-	<img src="/images/works/2016 - Matisse Window.png">
+	<img src="/images/works/2016 - Abstract 1.jpg" loading="lazy">
+	<img src="/images/works/2016 - Ice.png" loading="lazy">
+	<img src="/images/works/2016 - Katie and Doug.JPG" loading="lazy">
+	<img src="/images/works/2016 - Keyhole.jpg" loading="lazy">
+	<img src="/images/works/2016 - Matisse Window.png" loading="lazy">
 	<img src="/images/works/2016 - Men on Bench.png">
 	<img src="/images/works/2016 - Sitting at Sunset.jpg">
 	<img src="/images/works/2016 - Space to Breathe.JPG">
