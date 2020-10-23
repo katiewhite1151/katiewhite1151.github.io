@@ -7,7 +7,6 @@ featured_image: '/images/works/2006 - Annie.jpg'
 ---
 
 <div class="gallery" data-columns="3">
-
 	<img src="/images/works/2006 - Annie.jpg">
 	<img src="/images/works/2008 - Blue Aspen Trees.jpg">
 	<img src="/images/works/2009 - Self as Chuck Charcoal.jpg">
@@ -36,5 +35,4 @@ featured_image: '/images/works/2006 - Annie.jpg'
 	<img src="/images/works/2015 - Annie in Collage 2.jpg">
 	<img src="/images/works/2015 - Sam in Collage.JPG">
 	<img src="/images/works/2015 - Sam in Watercolor.jpg">
-
 </div>
