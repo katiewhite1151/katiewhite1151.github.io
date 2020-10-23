@@ -7,42 +7,42 @@ featured_image: 'images/works/2017 - Collecting Thoughts and Pieces.jpg'
 ---
 
 <div class="gallery" data-columns="3">
-	<img src="/images/works/2016 - Abstract 1.jpg" loading="lazy">
-	<img src="/images/works/2016 - Ice.png" loading="lazy">
-	<img src="/images/works/2016 - Katie and Doug.JPG" loading="lazy">
-	<img src="/images/works/2016 - Keyhole.jpg" loading="lazy">
-	<img src="/images/works/2016 - Matisse Window.png" loading="lazy">
-	<img src="/images/works/2016 - Men on Bench.png" loading="lazy">
-	<img src="/images/works/2016 - Sitting at Sunset.jpg" loading="lazy">
-	<img src="/images/works/2016 - Space to Breathe.JPG" loading="lazy">
-	<img src="/images/works/2016 - Stairs in the Spring.jpg" loading="lazy">
-	<img src="/images/works/2017 - Calm Before the Storm.jpg" loading="lazy">
-	<img src="/images/works/2017 - Cara.JPG" loading="lazy">
-	<img src="/images/works/2017 - Collecting Thoughts and Pieces.jpg" loading="lazy">
-	<img src="/images/works/2017 - Composed and Waiting.jpg" loading="lazy">
-	<img src="/images/works/2017 - Fingers and Leaves.jpg" loading="lazy">
-	<img src="/images/works/2017 - Flight.jpg" loading="lazy">
-	<img src="/images/works/2017 - Forge.jpg" loading="lazy">
-	<img src="/images/works/2018 - Green Whees.jpg" loading="lazy">
-	<img src="/images/works/2017 - Hidden Cavern.jpg" loading="lazy">
-	<img src="/images/works/2017 - Looking up from the Canyon Floor.jpg" loading="lazy">
-	<img src="/images/works/2017 - Mountains on Fire.jpg" loading="lazy">
-	<img src="/images/works/2017 - Next.jpg" loading="lazy">
-	<img src="/images/works/2018 - Blue Scales.jpg" loading="lazy">
-	<img src="/images/works/2018 - Pink Whee.jpg" loading="lazy">
-	<img src="/images/works/2018 - Power.jpg" loading="lazy">
-	<img src="/images/works/2018 - Untitled.jpg" loading="lazy">
-	<img src="/images/works/2018 - Yellow Whee.jpg" loading="lazy">
-	<img src="/images/works/2019 - Black and Yellow.jpg" loading="lazy">
-	<img src="/images/works/2019 - Expanse 1.jpg" loading="lazy">
-	<img src="/images/works/2019 - Expanse 2.jpg" loading="lazy">
-	<img src="/images/works/2019 - Green Crown.jpg" loading="lazy">
-	<img src="/images/works/2019 - Omen.jpg" loading="lazy">
-	<img src="/images/works/2019 - Original Dots.jpg" loading="lazy">
-	<img src="/images/works/2019 - Pink Crown.jpg" loading="lazy">
-	<img src="/images/works/2019 - Pink Dots.jpg" loading="lazy">
-	<img src="/images/works/2019 - Summer Wash.jpg" loading="lazy">
-	<img src="/images/works/2019 - Triumph aka Collage Series 9.JPG" loading="lazy">
-	<img src="/images/works/2019 - Untitled 2.jpg" loading="lazy">
-	<img src="/images/works/2019 - Untitled.jpg" loading="lazy">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Abstract 1.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Ice.png">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Katie and Doug.JPG">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Keyhole.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Matisse Window.png">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Men on Bench.png">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Sitting at Sunset.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Space to Breathe.JPG">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Stairs in the Spring.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Calm Before the Storm.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Cara.JPG">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Collecting Thoughts and Pieces.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Composed and Waiting.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Fingers and Leaves.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Flight.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Forge.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2018 - Green Whees.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Hidden Cavern.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Looking up from the Canyon Floor.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Mountains on Fire.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2017 - Next.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2018 - Blue Scales.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2018 - Pink Whee.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2018 - Power.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2018 - Untitled.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2018 - Yellow Whee.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Black and Yellow.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Expanse 1.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Expanse 2.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Green Crown.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Omen.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Original Dots.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Pink Crown.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Pink Dots.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Summer Wash.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Triumph aka Collage Series 9.JPG">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Untitled 2.jpg">
+	<img src="/img/blank.png" alt="" data-echo="/images/works/2019 - Untitled.jpg">
 </div>
