@@ -7,7 +7,6 @@ featured_image: 'images/works/2017 - Collecting Thoughts and Pieces.jpg'
 ---
 
 <div class="gallery" data-columns="3">
-
 	<img src="/images/works/2016 - Abstract 1.jpg">
 	<img src="/images/works/2016 - Ice.png">
 	<img src="/images/works/2016 - Katie and Doug.JPG">
@@ -46,5 +45,4 @@ featured_image: 'images/works/2017 - Collecting Thoughts and Pieces.jpg'
 	<img src="/images/works/2019 - Triumph aka Collage Series 9.JPG">
 	<img src="/images/works/2019 - Untitled 2.jpg">
 	<img src="/images/works/2019 - Untitled.jpg">
-
 </div>
