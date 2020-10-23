@@ -7,7 +7,6 @@ featured_image: '/images/works/2017 - Flight.jpg'
 ---
 
 <div class="gallery" data-columns="3">
-
 	<img src="/images/works/2016 - Abstract 1.jpg">
 	<img src="/images/works/2008 - Blue Aspen Trees.jpg">
 	<img src="/images/works/2017 - Flight.jpg">
@@ -21,7 +20,6 @@ featured_image: '/images/works/2017 - Flight.jpg'
 	<img src="/images/works/2019 - Green Crown.jpg">
 	<img src="/images/works/2018 - Yellow Whee.jpg">
 	<img src="/images/works/2018 - Green Whees.jpg">
-
 	<img src="/images/works/2019 - Original Dots.jpg">
 	<img src="/images/works/2006 - Annie.jpg">
 </div>
