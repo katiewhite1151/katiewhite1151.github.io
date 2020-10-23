@@ -7,8 +7,8 @@ featured_image: 'images/works/2017 - Collecting Thoughts and Pieces.jpg'
 ---
 
 <div class="gallery" data-columns="3">
-	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Abstract 1.jpg">
-	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Ice.png">
+	<img src="/img/blank.jpg" alt="" data-echo="/images/works/2016 - Abstract 1.jpg">
+	<img src="/img/blank.jpg" alt="" data-echo="/images/works/2016 - Ice.png">
 	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Katie and Doug.JPG">
 	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Keyhole.jpg">
 	<img src="/img/blank.png" alt="" data-echo="/images/works/2016 - Matisse Window.png">
