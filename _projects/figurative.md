@@ -6,7 +6,7 @@ description: Katie Porter White - Figurative Works
 featured_image: '/images/works/2006-Annie.jpg'
 ---
 
-<div class="gallery"data-columns="3">
+<div class="gallery" data-columns="3">
 	<img src="/images/works/2006-Annie.jpg">
 	<img src="/images/works/2008-BlueAspenTrees.jpg">
 	<img src="/images/works/2009-SelfasChuckCharcoal.jpg">

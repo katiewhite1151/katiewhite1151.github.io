@@ -6,7 +6,7 @@ description: Katie Porter White - Featured Works
 featured_image: '/images/works/2017-Flight.jpg'
 ---
 
-<div class="gallery"data-columns="3">
+<div class="gallery" data-columns="3">
 	<img src="/images/works/2016-Abstract1.jpg">
 	<img src="/images/works/2008-BlueAspenTrees.jpg">
 	<img src="/images/works/2017-Flight.jpg">

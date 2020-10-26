@@ -6,7 +6,7 @@ description: Katie Porter White - Abstract Works
 featured_image: 'images/works/2017-CollectingThoughtsandPieces.jpg'
 ---
 
-<div class="gallery"data-columns="3">
+<div class="gallery" data-columns="3">
 	<img src="/images/works/2016-Abstract1.jpg">
 	<img src="/images/works/2016-Ice.png">
 	<img src="/images/works/2016-KatieandDoug.JPG">
