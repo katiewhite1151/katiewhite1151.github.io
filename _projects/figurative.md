@@ -1,7 +1,7 @@
 ---
 title: 'Figurative'
 subtitle: 'Figurative works in oil, acrylic and paper collage'
-date: 2018-05-3000:00:00
+date: 2018-05-30 00:00:00
 description: Katie Porter White - Figurative Works
 featured_image: '/images/works/2006-Annie.jpg'
 ---

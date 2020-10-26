@@ -1,7 +1,7 @@
 ---
 title: 'Selected Works'
 subtitle: 'Featured works in oil, acrylic and paper collage'
-date: 2018-07-3000:00:00
+date: 2018-07-30 00:00:00
 description: Katie Porter White - Featured Works
 featured_image: '/images/works/2017-Flight.jpg'
 ---

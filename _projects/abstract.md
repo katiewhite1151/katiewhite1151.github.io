@@ -1,7 +1,7 @@
 ---
 title: 'Abstract'
 subtitle: 'Abstract works in oil, acrylic and paper collage'
-date: 2018-06-3000:00:00
+date: 2018-06-30 00:00:00
 description: Katie Porter White - Abstract Works
 featured_image: 'images/works/2017-CollectingThoughtsandPieces.jpg'
 ---
