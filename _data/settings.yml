@@ -9,10 +9,12 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Portfolio'
+    - title: 'Home'
       url: '/'
     - title: 'About'
       url: '/about'
+    - title: 'Selected Works'
+      url: '/selected-works'
 
 grid_settings:
   overlay_opacity: 0.8
