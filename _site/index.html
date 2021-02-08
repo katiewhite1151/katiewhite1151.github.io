@@ -240,7 +240,11 @@
 		</a>
 		
 
+<<<<<<< Updated upstream
 		<!-- <h1 class="header__tagline">Artist based in Denver, Colorado</h1>
+=======
+		<h1 class="header__tagline"></h1>
+>>>>>>> Stashed changes
 
 		<div class="menu">
 			<div class="menu__toggle js-menu-toggle">
@@ -250,11 +254,15 @@
 				<ul class="menu__list">
 					
 					<li class="menu__list__item">
-						<a href="/" class="menu__list__item__link">Portfolio</a>
+						<a href="/" class="menu__list__item__link">Home</a>
 					</li>
 					
 					<li class="menu__list__item">
 						<a href="/about" class="menu__list__item__link">About</a>
+					</li>
+					
+					<li class="menu__list__item">
+						<a href="/selected-works" class="menu__list__item__link">Selected Works</a>
 					</li>
 					
 				</ul>
@@ -264,6 +272,7 @@
 		<div class="projects-menu">
 			<ul class="menu__list"  style="text-decoration: none;">
 				
+<<<<<<< Updated upstream
 				<li class="menu__list__item">
 					<a href="/project/selected" class="menu__list__item__link" style="color: blue">Home</a>
 				</li>
@@ -277,6 +286,8 @@
 					<a href="selected-works.html" class="menu__list__item__link">Selected Works</a>
 				</li>
 				
+=======
+>>>>>>> Stashed changes
 			</ul>
 		</div>
 
@@ -378,6 +389,7 @@
 	<!-- <div class="page">
 
 		<div class="page__content" data-page-title="Katie Porter White – Artist based in Denver, CO">
+<<<<<<< Updated upstream
  -->
 		<!-- 	<section class="portfolio">
 
@@ -386,73 +398,217 @@
 		
 
 		<!-- <div class="portfolio-item">
+=======
 
-			<a class="portfolio-item__link" href="/project/selected">
+			<script src="js/slick.js" type="text/javascript">
+</script>
 
-				<div class="portfolio-item__image">
-					<img src="/images/works/2017-Flight.jpg" alt="Selected Works">
-				</div>
+<script>
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+      define(function() {
+        return factory(root);
+      });
+    } else if (typeof exports === 'object') {
+      module.exports = factory;
+    } else {
+      root.echo = factory(root);
+    }
+  })(this, function (root) {
 
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Selected Works</h2>
-						<p class="portfolio-item__subtitle">Featured works in oil, acrylic and paper collage</p>
-					</div>
-				</div>
+    'use strict';
 
-			</a>
+    var echo = {};
+>>>>>>> Stashed changes
 
+    var callback = function () {};
+
+    var offset, poll, delay, useDebounce, unload;
+
+    var isHidden = function (element) {
+      return (element.offsetParent === null);
+    };
+
+    var inView = function (element, view) {
+      if (isHidden(element)) {
+        return false;
+      }
+
+<<<<<<< Updated upstream
 		</div> -->
+=======
+      var box = element.getBoundingClientRect();
+      return (box.right >= view.l && box.bottom >= view.t && box.left <= view.r && box.top <= view.b);
+    };
+>>>>>>> Stashed changes
 
-		
+    var debounceOrThrottle = function () {
+      if(!useDebounce && !!poll) {
+        return;
+      }
+      clearTimeout(poll);
+      poll = setTimeout(function(){
+        echo.render();
+        poll = null;
+      }, delay);
+    };
 
+    echo.init = function (opts) {
+      opts = opts || {};
+      var offsetAll = opts.offset || 0;
+      var offsetVertical = opts.offsetVertical || offsetAll;
+      var offsetHorizontal = opts.offsetHorizontal || offsetAll;
+      var optionToInt = function (opt, fallback) {
+        return parseInt(opt || fallback, 10);
+      };
+      offset = {
+        t: optionToInt(opts.offsetTop, offsetVertical),
+        b: optionToInt(opts.offsetBottom, offsetVertical),
+        l: optionToInt(opts.offsetLeft, offsetHorizontal),
+        r: optionToInt(opts.offsetRight, offsetHorizontal)
+      };
+      delay = optionToInt(opts.throttle, 250);
+      useDebounce = opts.debounce !== false;
+      unload = !!opts.unload;
+      callback = opts.callback || callback;
+      echo.render();
+      if (document.addEventListener) {
+        root.addEventListener('scroll', debounceOrThrottle, false);
+        root.addEventListener('load', debounceOrThrottle, false);
+      } else {
+        root.attachEvent('onscroll', debounceOrThrottle);
+        root.attachEvent('onload', debounceOrThrottle);
+      }
+    };
+
+    echo.render = function (context) {
+      var nodes = (context || document).querySelectorAll('[data-echo], [data-echo-background]');
+      var length = nodes.length;
+      var src, elem;
+      var view = {
+        l: 0 - offset.l,
+        t: 0 - offset.t,
+        b: (root.innerHeight || document.documentElement.clientHeight) + offset.b,
+        r: (root.innerWidth || document.documentElement.clientWidth) + offset.r
+      };
+      for (var i = 0; i < length; i++) {
+        elem = nodes[i];
+        if (inView(elem, view)) {
+
+<<<<<<< Updated upstream
 		<!-- <div class="portfolio-item">
+=======
+          if (unload) {
+            elem.setAttribute('data-echo-placeholder', elem.src);
+          }
+>>>>>>> Stashed changes
 
-			<a class="portfolio-item__link" href="/project/abstract">
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + elem.getAttribute('data-echo-background') + ')';
+          }
+          else if (elem.src !== (src = elem.getAttribute('data-echo'))) {
+            elem.src = src;
+          }
 
-				<div class="portfolio-item__image">
-					<img src="/images/works/2017-CollectingThoughtsandPieces.jpg" alt="Abstract">
-				</div>
+          if (!unload) {
+            elem.removeAttribute('data-echo');
+            elem.removeAttribute('data-echo-background');
+          }
 
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Abstract</h2>
-						<p class="portfolio-item__subtitle">Abstract works in oil, acrylic and paper collage</p>
-					</div>
-				</div>
+          callback(elem, 'load');
+        }
+        else if (unload && !!(src = elem.getAttribute('data-echo-placeholder'))) {
 
-			</a>
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + src + ')';
+          }
+          else {
+            elem.src = src;
+          }
 
+<<<<<<< Updated upstream
 		</div> -->
+=======
+          elem.removeAttribute('data-echo-placeholder');
+          callback(elem, 'unload');
+        }
+      }
+      if (!length) {
+        echo.detach();
+      }
+    };
+>>>>>>> Stashed changes
 
-		
+    echo.detach = function () {
+      if (document.removeEventListener) {
+        root.removeEventListener('scroll', debounceOrThrottle);
+      } else {
+        root.detachEvent('onscroll', debounceOrThrottle);
+      }
+      clearTimeout(poll);
+    };
 
+<<<<<<< Updated upstream
 		<!-- <div class="portfolio-item">
+=======
+    return echo;
+>>>>>>> Stashed changes
 
-			<a class="portfolio-item__link" href="/project/figurative">
+  });
+</script>
+<script>
+    echo.init({
+      offset: 2500,
+      throttle: 250,
+      unload: false,
+      callback: function (element, op) {
+        //console.log(element, 'has been', op + 'ed')
+      }
+    });
+</script>
+<script>
 
-				<div class="portfolio-item__image">
-					<img src="/images/works/2006-Annie.jpg" alt="Figurative">
-				</div>
+	$('.slider').slick({
+	infinite: true,
+	speed: 500,
+	autoplay: true,
+	autoplaySpeed: 7000,
+	cssEase: 'linear'
 
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">Figurative</h2>
-						<p class="portfolio-item__subtitle">Figurative works in oil, acrylic and paper collage</p>
-					</div>
-				</div>
+});
 
-			</a>
+	</script>
 
+<body class="loading ajax-loading" data-site-url="http://0.0.0.0:4000" data-page-url="/">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
 		</div>
 
-		
+			<div class="col-sm-8">
+			<div class="vista slider">
 
+<<<<<<< Updated upstream
 	</div>
 		
 </section> -->
 
 	<!-- 	</div>
+=======
+			<img src="./images/tw.jpg" alt="">
+			<img src="./images/ne.jpg" alt="">
+			<img src="./images/three.jpg" alt="">
+
+			</div>
+			</div>
+		</div>
+		</div>
+		</body>
+
+
+		</div>
+>>>>>>> Stashed changes
 
 	</div>
  -->
