@@ -10,7 +10,7 @@ header_settings:
 menu_settings:
   menu_items:
     - title: 'Home'
-      url: '/'
+      url: 'https://katieporterwhite.com/assets/'
     - title: 'About'
       url: '/about'
     - title: 'Selected Works'
