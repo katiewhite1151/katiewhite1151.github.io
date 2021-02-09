@@ -16,10 +16,6 @@ menu_settings:
     - title: 'Selected Works'
       url: '/selected-works'
 
-layout: page
-title: ""
-permalink: https://katieporterwhite.com/selected-works.html/
-
 
 grid_settings:
   overlay_opacity: 0.8
