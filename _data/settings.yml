@@ -14,7 +14,7 @@ menu_settings:
     - title: 'About'
       url: '/about'
     - title: 'Selected Works'
-      url: '/assets/index.html'
+      url: './assets/index.html'
 
 grid_settings:
   overlay_opacity: 0.8
