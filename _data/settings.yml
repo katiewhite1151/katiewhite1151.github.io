@@ -10,7 +10,7 @@ header_settings:
 menu_settings:
   menu_items:
     - title: 'Home'
-      url: '/index2.html'
+      url: '/'
     - title: 'About'
       url: '/about'
     - title: 'selected-works'
