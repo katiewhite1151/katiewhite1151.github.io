@@ -13,12 +13,11 @@ menu_settings:
       url: '/'
     - title: 'About'
       url: '/about'
-    - title: 'Selected Works'
+    - title: 'selected Works'
       url: '/selected-works'
       - title: 'index'
       url: '/index'
-      - title: 'index'
-      url: '/index'
+     
 
 
 grid_settings:
