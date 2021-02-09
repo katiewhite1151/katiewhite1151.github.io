@@ -15,9 +15,7 @@ menu_settings:
       url: '/about'
     - title: 'selected-works'
       url: '/selected-works'
-      - title: 'index'
-      url: '/index'
-     
+    
 
 
 grid_settings:
