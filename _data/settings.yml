@@ -13,7 +13,7 @@ menu_settings:
       url: '/'
     - title: 'About'
       url: '/about'
-    - title: 'selected Works'
+    - title: 'selected-works'
       url: '/selected-works'
       - title: 'index'
       url: '/index'
