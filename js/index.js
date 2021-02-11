@@ -333,6 +333,14 @@
 			$(this).wrapAll('<div class="table-wrap"></div>');
 		});
 
+		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Home scroll bar fix
+
+		if($('.single').hasClass('home')) {
+			$('body').addClass('scroll-fix');
+		} else {
+			$('body').removeClass('scroll-fix');
+		}
+
 	}
 
 	// Run functions on load
