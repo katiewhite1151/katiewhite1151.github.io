@@ -53,19 +53,28 @@
 	padding: 20px 0;
 	background: $background-alt-color;
 	min-height: 100vh;
-
-	@include mq(tabletp) {
-		padding: 40px 0;
+	&.home {
+		padding: 0;
+		overflow: hidden;
+		.wrap {
+			@include mq(tabletmax) {
+				padding: 0;
+			}
+		}
 	}
-
-	@include mq(tabletl) {
-		padding: 40px $grid-spacing;
+	&:not(.home) {
+		@include mq(tabletp) {
+			padding: 40px 0;
+		}
+	
+		@include mq(tabletl) {
+			padding: 40px $grid-spacing;
+		}
+	
+		@include mq(laptop) {
+			padding: 60px $grid-spacing;
+		}
 	}
-
-	@include mq(laptop) {
-		padding: 60px $grid-spacing;
-	}
-
 	h1, h2, h3, h4, h5, h6, p, ul, ol {
 		margin-left: auto;
 		margin-right: auto;

@@ -7,22 +7,24 @@
 .gallery {
 	visibility: hidden;
 	position: relative;
-	margin: 20px auto;
+	.single:not(.home) & {
+		margin: 20px auto;
 
-	@include mq(tabletp) {
-		margin: 30px auto;
-	}
-
-	@include mq(tabletl) {
-
-	}
-
-	@include mq(laptop) {
-		margin: 40px auto;
-	}
-
-	&:first-child {
-		margin-top: 0;
+		@include mq(tabletp) {
+			margin: 30px auto;
+		}
+	
+		@include mq(tabletl) {
+	
+		}
+	
+		@include mq(laptop) {
+			margin: 40px auto;
+		}
+	
+		&:first-child {
+			margin-top: 0;
+		}
 	}
 }
 
@@ -60,7 +62,18 @@
 	.gallery__item__image {
 
 	}
-
+	.owl-carousel .owl-item img {
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		object-fit: cover;
+		@include mq(tabletmax) {
+			height: 90vh;
+		}
+		@include mq(tabletsm) {
+			height: 94vh;
+		}
+	}
 	.owl-nav {
 		display: none;
 	}

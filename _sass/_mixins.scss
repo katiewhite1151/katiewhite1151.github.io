@@ -18,6 +18,15 @@ $break-desktop: 1420px;
 	@if $media == phonel {
 		@media only screen and (min-width: $break-phonel) { @content; }
 	}
+  @if $media == phonemax {
+		@media only screen and (max-width: $break-phonel) { @content; }
+	}
+  @else if $media == tabletsm {
+		@media only screen and (max-width: $break-tabletp) { @content; }
+	}
+  @else if $media == tabletmax {
+		@media only screen and (max-width: $break-tabletl) { @content; }
+	}
 	@else if $media == tabletp {
 		@media only screen and (min-width: $break-tabletp) { @content; }
 	}

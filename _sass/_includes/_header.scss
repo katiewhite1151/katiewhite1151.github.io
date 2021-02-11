@@ -10,9 +10,11 @@
 
 .header {
 	padding: 20px;
-
-	@include mq(tabletp) {
-		padding: 40px;
+	@include mq(tabletmax) {
+		padding: 3vh;
+	}
+	@include mq(tabletsm) {
+		padding: 1.5vh;
 	}
 
 	@include mq(tabletl) {
