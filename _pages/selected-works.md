@@ -5,9 +5,9 @@ description: ''
 featured_image: /images/kpw-studio.png
 ---
 
-{% assign featuredImg = site.data.work.featured %}
-{% assign selectedImg = site.data.work.selected %}
-{% assign images = selectedImg.images | concat: featuredImg.images | concat: selectedImg.images2 %}
+{% assign featured = site.data.work.featured %}
+{% assign selected = site.data.work.selected %}
+{% assign images = selected.images | concat: featured.images | concat: selected.images2 %}
 
 <div>
   {% for image in images %}
