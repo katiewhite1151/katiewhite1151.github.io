@@ -413,8 +413,48 @@
 			e.preventDefault();
 		}
 
-	});	
+	});
+
+	var flag = false;
+	var selectedClone = $('div.selected').parent('.wrap').html();
+	var $selectedParent = $('.selected').parent('.wrap');
+	var slickConfig = {
+		dots: true,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear'
+	};
+
+	$selectedParent.parent().prepend('<a href="#" class="btn-works">btn</a>');
 	
-	
-	
+	$('a.btn-works').on('click', function(e) {
+		//e.stopPropagation();
+		e.preventDefault();
+		// caching
+		var $selected = $selectedParent.html(selectedClone).find('.selected');
+		$selectedParent.empty();
+
+		if(flag) {
+			$selected.addClass('gallery').attr('data-columns', 3);
+			flag = false;
+		} else {
+			$selected.slick(slickConfig);
+			flag = true;
+		}
+
+
+		$selectedParent.append($selected);
+		if (!flag) pageFunctions();
+		return false;
+	});
+	$('a.btn-works').click();
+	// $('.selected').slick({
+	// 	dots: true,
+	// 	infinite: true,
+	// 	speed: 500,
+	// 	fade: true,
+	// 	cssEase: 'linear'
+	// });
+
 }(jQuery));
