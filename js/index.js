@@ -426,29 +426,29 @@
 		cssEase: 'linear'
 	};
 
-	$selectedParent.parent().prepend('<a href="#" class="btn-works">btn</a>');
-	
-	$('a.btn-works').on('click', function(e) {
+	var btn = $selectedParent.parent().prepend('<a href="#" class="btn-works">btn</a>').find('a.btn-works');
+
+	btn.on('click', function(e) {
 		//e.stopPropagation();
 		e.preventDefault();
 		// caching
 		var $selected = $selectedParent.html(selectedClone).find('.selected');
+		// clear out contents of the wrap
 		$selectedParent.empty();
+		$selected = $selectedParent.append($selected).find('.selected');
 
 		if(flag) {
 			$selected.addClass('gallery').attr('data-columns', 3);
+			pageFunctions();
 			flag = false;
 		} else {
 			$selected.slick(slickConfig);
 			flag = true;
 		}
 
-
-		$selectedParent.append($selected);
-		if (!flag) pageFunctions();
 		return false;
 	});
-	$('a.btn-works').click();
+	btn.click();
 	// $('.selected').slick({
 	// 	dots: true,
 	// 	infinite: true,
