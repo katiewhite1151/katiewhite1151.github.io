@@ -19,38 +19,38 @@ featured:
 selected:
   images:
     - src: 2019-Omen.jpg
-      Title: Omen 
-      Year: 2019
-      Materials: Acrylic & paper on canvas
-      Dimensions: 40&Prime; x 40&Prime; 
+      title: Omen 
+      year: 2019
+      materials: Acrylic & paper on canvas
+      dimensions: 40&Prime; x 40&Prime; 
 
     - src: 2017-Next.jpg
-      Title: Next
-      Year: 2017
-      Materials: 24&Prime; x 18&Prime;
-      Dimensions: Paper collage with ink and acrylic
+      title: Next
+      year: 2017
+      materials: 24&Prime; x 18&Prime;
+      dimensions: Paper collage with ink and acrylic
 
   images2:
     - src: 2017-Looking-up-from-the-Canyon-Floor.jpg
-      Title: Looking up from the Canyon Floor
-      Year: 2017
-      Materials: Acrylic on canvas
-      Dimensions: 72&Prime; x 36&Prime;
+      title: Looking up from the Canyon Floor
+      year: 2017
+      materials: Acrylic on canvas
+      dimensions: 72&Prime; x 36&Prime;
 
     - src: 2017-Calm-Before-the-Storm.jpg
-      Title: Calm before the storm
-      Year: 2017
-      Materials: Paper collage & acrylic
-      Dimensions: 18&Prime; x 24&Prime;
+      title: Calm before the storm
+      year: 2017
+      materials: Paper collage & acrylic
+      dimensions: 18&Prime; x 24&Prime;
 
     - src: 2011-Yale-Common-Room-Collage.JPG
-      Title: Common room (collage)
-      Year: 2011
-      Materials: Paper collage with acrylic
-      Dimensions: 12&Prime; x 18&Prime;
+      title: Common room (collage)
+      year: 2011
+      materials: Paper collage with acrylic
+      dimensions: 12&Prime; x 18&Prime;
 
     - src: 2009-Yale-in-Charcoal.jpeg
-      Title: Common room 
-      Year: 2011
-      Materials: Acrylic on canvas
-      Dimensions: 12&Prime; x 18&Prime;
+      title: Common room 
+      year: 2011
+      materials: Acrylic on canvas
+      dimensions: 12&Prime; x 18&Prime;
