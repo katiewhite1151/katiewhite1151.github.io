@@ -1,0 +1,11 @@
+.page section.works {
+  // @include mq(tabletp) {
+  //   padding-right: 150px;
+  // }
+  //padding-right: 150px;
+  a.btn-works {
+		position: absolute;
+		right: 44px;
+		top: 20px;
+  }
+}

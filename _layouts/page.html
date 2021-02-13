@@ -17,9 +17,10 @@ layout: default
 
 
 <section class="single{{ page.type | prepend:' ' | rstrip }}">
-
+	{% if page.type == "works" %}
+		<a href="#" class="btn-works">View</a>
+	{% endif %}
 	<div class="wrap">
-
 		{{ page.content }}
 
 	</div>
