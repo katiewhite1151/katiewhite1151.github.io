@@ -7,8 +7,10 @@ type: works
 ---
 
 {% assign featured = site.data.work.featured %}
-{% assign selected = site.data.work.selected %}
-{% assign images = selected.images | concat: featured.images | concat: selected.images2 %}
+{% assign selectedTop = site.data.work.selectedTop %}
+{% assign selectedBtm = site.data.work.selectedBtm %}
+
+{% assign images = selectedTop | concat: featured | concat: selectedBtm %}
 
 <div class="selected">
   {% for image in images %}

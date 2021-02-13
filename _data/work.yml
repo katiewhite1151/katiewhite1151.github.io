@@ -1,56 +1,50 @@
+selectedTop:
+  - src: 2019-Omen.jpg
+    title: Omen 
+    year: 2019
+    materials: Acrylic & paper on canvas
+    dimensions: 40&Prime; x 40&Prime; 
+  - src: 2017-Next.jpg
+    title: Next
+    year: 2017
+    materials: 24&Prime; x 18&Prime;
+    dimensions: Paper collage with ink and acrylic
+
 featured:
-  images:
-    - src: 2017-Collecting-Thoughts-and-Pieces.jpg
-      title: Collecting Thoughts and Pieces
-      year: 2017
-      materials: Paper & acrylic on wood board
-      dimensions: 48&Prime; x 48&Prime;
-    - src: 2017-Flight.jpg
-      title: Flight
-      year: 2017
-      materials: Paper & acrylic on wood board
-      dimensions: 48&Prime; x 48&Prime;
-    - src: 2017-Forge.jpg
-      title: Forge
-      year: 2017
-      materials: Paper & acrylic on canvas
-      dimensions: 48&Prime; x 72&Prime;
+  - src: 2017-Collecting-Thoughts-and-Pieces.jpg
+    title: Collecting Thoughts and Pieces
+    year: 2017
+    materials: Paper & acrylic on wood board
+    dimensions: 48&Prime; x 48&Prime;
+  - src: 2017-Flight.jpg
+    title: Flight
+    year: 2017
+    materials: Paper & acrylic on wood board
+    dimensions: 48&Prime; x 48&Prime;
+  - src: 2017-Forge.jpg
+    title: Forge
+    year: 2017
+    materials: Paper & acrylic on canvas
+    dimensions: 48&Prime; x 72&Prime;
 
-selected:
-  images:
-    - src: 2019-Omen.jpg
-      title: Omen 
-      year: 2019
-      materials: Acrylic & paper on canvas
-      dimensions: 40&Prime; x 40&Prime; 
-
-    - src: 2017-Next.jpg
-      title: Next
-      year: 2017
-      materials: 24&Prime; x 18&Prime;
-      dimensions: Paper collage with ink and acrylic
-
-  images2:
-    - src: 2017-Looking-up-from-the-Canyon-Floor.jpg
-      title: Looking up from the Canyon Floor
-      year: 2017
-      materials: Acrylic on canvas
-      dimensions: 72&Prime; x 36&Prime;
-
-    - src: 2017-Calm-Before-the-Storm.jpg
-      title: Calm before the storm
-      year: 2017
-      materials: Paper collage & acrylic
-      dimensions: 18&Prime; x 24&Prime;
-
-    - src: 2011-Yale-Common-Room-Collage.JPG
-      title: Common room (collage)
-      year: 2011
-      materials: Paper collage with acrylic
-      dimensions: 12&Prime; x 18&Prime;
-
-    - src: 2009-Yale-in-Charcoal.jpeg
-      title: Common room 
-      year: 2011
-      materials: Acrylic on canvas
-      dimensions: 12&Prime; x 18&Prime;
+selectedBtm:
+  - src: 2017-Looking-up-from-the-Canyon-Floor.jpg
+    title: Looking up from the Canyon Floor
+    year: 2017
+    materials: Acrylic on canvas
+    dimensions: 72&Prime; x 36&Prime;
+  - src: 2017-Calm-Before-the-Storm.jpg
+    title: Calm before the storm
+    year: 2017
+    materials: Paper collage & acrylic
+    dimensions: 18&Prime; x 24&Prime;
+  - src: 2011-Yale-Common-Room-Collage.JPG
+    title: Common room (collage)
+    year: 2011
+    materials: Paper collage with acrylic
+    dimensions: 12&Prime; x 18&Prime;
+  - src: 2009-Yale-in-Charcoal.jpeg
+    title: Common room 
+    year: 2011
+    materials: Acrylic on canvas
+    dimensions: 12&Prime; x 18&Prime;
