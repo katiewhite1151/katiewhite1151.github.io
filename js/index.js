@@ -18,6 +18,43 @@
 	var docTitle = document.title;
 	var History = window.History;
 
+	var flag = true;
+	var wrapInnerClone = $('.works').find('.wrap').html();
+
+	var slickConfig = {
+		dots: true,
+		speed: 500,
+		fade: true,
+		infinite: true,
+		cssEase: 'linear',
+		adaptiveHeight: true
+	};
+
+	var $btn = $('.selected').parent('.wrap').parent().find('a.btn-works');
+
+	$('body').on('click', 'a.btn-works', function(e) {
+
+		//e.stopPropagation();
+		e.preventDefault();
+		// caching
+		var $selected = $('.works').find('.wrap').html(wrapInnerClone).find('.selected');
+
+		// clear out contents of the wrap
+		$('.works').find('.wrap').empty();
+		$selected = $('.works').find('.wrap').append($selected).find('.selected');
+
+		if(flag) {
+			$selected.addClass('gallery').attr('data-columns', 3);
+			pageFunctions();
+			flag = false;
+		} else {
+			$selected.slick(slickConfig);
+			flag = true;
+		}
+
+		return false;
+	});
+
 	// State change event
 	History.Adapter.bind(window,'statechange',function(){
 		var state = History.getState();
@@ -58,7 +95,10 @@
 
 				// Run page functions
 				pageFunctions();
-
+				$('.selected').slick(slickConfig);
+				flag = true;
+				
+				
 			}, transitionTime);
 
 		});
@@ -345,7 +385,7 @@
 
 	// Run functions on load
 	pageFunctions();
-
+	$('.selected').slick(slickConfig);
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu
 
@@ -415,39 +455,6 @@
 
 	});
 
-	var flag = false;
-	var selectedClone = $('div.selected').parent('.wrap').html();
-	var $selectedParent = $('.selected').parent('.wrap');
-	var slickConfig = {
-		dots: true,
-		infinite: true,
-		speed: 500,
-		fade: true,
-		cssEase: 'linear'
-	};
-
-	var btn = $selectedParent.parent().prepend('<a href="#" class="btn-works">btn</a>').find('a.btn-works');
-
-	btn.on('click', function(e) {
-		//e.stopPropagation();
-		e.preventDefault();
-		// caching
-		var $selected = $selectedParent.html(selectedClone).find('.selected');
-		// clear out contents of the wrap
-		$selectedParent.empty();
-		$selected = $selectedParent.append($selected).find('.selected');
-
-		if(flag) {
-			$selected.addClass('gallery').attr('data-columns', 3);
-			pageFunctions();
-			flag = false;
-		} else {
-			$selected.slick(slickConfig);
-			flag = true;
-		}
-
-		return false;
-	});
 	document.onkeydown = function (e) {
 
 		if(!$('.works').length) return;
