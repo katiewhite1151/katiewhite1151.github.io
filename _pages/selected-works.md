@@ -6,8 +6,8 @@ featured_image: /images/kpw-studio.png
 type: works
 ---
 
-{% assign featured = site.data.work.featured %}
 {% assign selectedTop = site.data.work.selectedTop %}
+{% assign featured    = site.data.work.featured    %}
 {% assign selectedBtm = site.data.work.selectedBtm %}
 
 {% assign images = selectedTop | concat: featured | concat: selectedBtm %}
