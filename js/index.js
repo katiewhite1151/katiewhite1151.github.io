@@ -448,13 +448,21 @@
 
 		return false;
 	});
-	btn.click();
-	// $('.selected').slick({
-	// 	dots: true,
-	// 	infinite: true,
-	// 	speed: 500,
-	// 	fade: true,
-	// 	cssEase: 'linear'
-	// });
+	document.onkeydown = function (e) {
 
+		if(!$('.works').length) return;
+
+		e = e || window.event;
+
+		// click previous
+		if (e.keyCode === 37) {
+			// left arrow
+			$('.fluidbox__ghost').closest('a.fluidbox--opened').parent().prev().find('a').click();
+		}
+		// click next
+		if (e.keyCode === 39) {
+			// right arrow
+			$('.fluidbox__ghost').closest('a.fluidbox--opened').parent().next().find('a').click();
+		}
+	}
 }(jQuery));
