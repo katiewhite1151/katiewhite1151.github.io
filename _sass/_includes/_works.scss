@@ -9,3 +9,8 @@
 		top: 20px;
   }
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #ccc;
+}
