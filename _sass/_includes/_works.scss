@@ -9,8 +9,35 @@
 		top: 20px;
   }
 }
+.gallery {
+  p {
+    display: none;
+  }
+}
+.slick-slider {
+  p {
+    max-width: 100%;
+    text-align: center;
+    margin: 15px auto;
+  }
+}
 
-.slick-prev:before,
-.slick-next:before {
-  color: #ccc;
+.slick-arrow {
+  height: 100%;
+  &.slick-prev:before,
+  &.slick-next:before {
+    opacity: 1;
+    color: #C4C4C4;
+  }
+}
+.slick-dots {
+  li {
+    margin: 0 15px;
+    button {
+      padding: 0px;
+      &:before {
+        font-size: 20px;
+      }
+    }
+  }
 }

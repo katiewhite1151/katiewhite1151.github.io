@@ -17,7 +17,7 @@ $slick-prev-character: "\2190" !default;
 $slick-next-character: "\2192" !default;
 $slick-dot-character: "\2022" !default;
 $slick-dot-size: 6px !default;
-$slick-opacity-default: 0.75 !default;
+$slick-opacity-default: 0.9 !default;
 $slick-opacity-on-hover: 1 !default;
 $slick-opacity-not-active: 0.25 !default;
 
@@ -130,13 +130,13 @@ $slick-opacity-not-active: 0.25 !default;
 
 /* Dots */
 
-.slick-dotted.slick-slider {
-    margin-bottom: 30px;
-}
+// .slick-dotted.slick-slider {
+//     margin-bottom: 30px;
+// }
 
 .slick-dots {
     position: absolute;
-    bottom: -25px;
+    // bottom: -25px;
     list-style: none;
     display: block;
     text-align: center;

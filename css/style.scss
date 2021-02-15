@@ -157,8 +157,9 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_syntax";
 @import "_includes/_contact-form";
 
-@import "_includes/_slick";
-@import "_includes/_slick-theme";
+@import "_includes/slick";
+@import "_includes/slick-theme";
+
 
 // - - - - - - - - - - Section styles
 
