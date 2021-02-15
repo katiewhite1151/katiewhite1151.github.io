@@ -14,6 +14,12 @@ type: works
 
 <div class="selected">
   {% for image in images %}
-    <img src="/images/{{ image.src }}" alt="{{ image.title }}">
+    <div class="imgs">
+        <img src="/images/{{ image.src }}" alt="{{ image.title }}">
+      <p>
+        {{ image.title }}, {{ image.year }}<br>
+        {{ image.materials }}, {{ image.dimensions }}
+      </p>
+    </div>
   {% endfor %}
 </div>
