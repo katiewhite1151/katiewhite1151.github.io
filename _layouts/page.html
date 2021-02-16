@@ -18,11 +18,23 @@ layout: default
 
 <section class="single{{ page.type | prepend:' ' | rstrip }}">
 	{% if page.type == "works" %}
-		<a href="#" class="btn-works">View</a>
+		<a href="#" class="btn-works slider">
+			<span class="view">View</span>
+			<span class="square"></span>
+			<span class="tiles">
+				<span class="square"></span>
+				<span class="square"></span>
+				<span class="square"></span>
+				<span class="square"></span>
+				<span class="square"></span>
+				<span class="square"></span>
+				<span class="square"></span>
+				<span class="square"></span>
+				<span class="square"></span>
+			</span>
+		</a>
 	{% endif %}
 	<div class="wrap">
 		{{ page.content }}
-
 	</div>
-
 </section>

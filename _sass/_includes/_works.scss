@@ -4,11 +4,81 @@
   // }
   //padding-right: 150px;
   a.btn-works {
-		position: absolute;
-		right: 44px;
-		top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #C4C4C4;
+    position: absolute;
+    right: 44px;
+    top: 20px;
+    border: 1px solid #C4C4C4;
+    padding: 40px 20px;
+    padding:  40px 8px 10px 8px;
+    z-index: 100;
+    background: #fff;
+    &:hover {
+      color: #C4C4C4;
+    }
+    &.slider {
+      span {
+        &.square {
+          background: #0057FF;
+        }
+        &.tiles {
+          span {
+            background: #C4C4C4;
+          }
+        }
+      }      
+    }
+    span {
+      &.view {
+        padding: 10px;
+        padding: 10px 16px;
+        margin-top: -54px;
+        display: block;
+        background: #fff;
+        display: block;
+      }
+      &.square {
+        display: block;
+        background: #C4C4C4;
+        height: 35px;
+        width: 36px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &.tiles {
+        display: block;
+        width: 40px;
+        //float: left;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 40px;
+        span {
+
+          margin-bottom: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          height: 9px;
+          width: 8px;
+          margin-bottom: 7px;
+          float: left;
+          background: #0057FF;
+          // .slider & {
+          //   background: #C4C4C4;
+          // }
+
+          &:nth-of-type(3n+2) {
+            margin: 0 8px;
+          }
+        }
+      }
+    }
   }
 }
+
 .gallery {
   p {
     display: none;
