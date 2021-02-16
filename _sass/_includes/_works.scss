@@ -22,12 +22,26 @@
   }
 }
 
+.slick-slide img {
+  width: 100%;
+}
+
+$button-offset: 50px;
+
 .slick-arrow {
   height: 100%;
+  width: $button-offset;
+  &.slick-next {
+    right: -$button-offset;
+  }
+  &.slick-prev {
+    left: -$button-offset;
+}
   &.slick-prev:before,
   &.slick-next:before {
     opacity: 1;
     color: #C4C4C4;
+    font-size: 35px;
   }
 }
 .slick-dots {
