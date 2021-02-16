@@ -33,6 +33,7 @@
 	var $btn = $('.selected').parent('.wrap').parent().find('a.btn-works');
 
 	$('body').on('click', 'a.btn-works', function(e) {
+		$('.page__content').fadeOut(0);
 
 		//e.stopPropagation();
 		e.preventDefault();
@@ -51,6 +52,7 @@
 			$selected.slick(slickConfig);
 			flag = true;
 		}
+		$('.page__content').fadeIn();
 
 		return false;
 	});
@@ -462,3 +464,4 @@
 	});
 
 }(jQuery));
+
