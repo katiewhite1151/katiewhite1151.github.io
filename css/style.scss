@@ -161,7 +161,7 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/slick-theme";
 
 // bourbon's required for simpleLightbox
-@import "_bourbon.scss";
+@import "bourbon/_bourbon.scss";
 @import "_includes/simpleLightbox.scss";
 
 // - - - - - - - - - - Section styles
