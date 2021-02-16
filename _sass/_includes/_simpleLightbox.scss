@@ -101,7 +101,6 @@ $output-bourbon-deprecation-warnings: false;
 }
 
 .slbCloseBtn, .slbArrow {
-    display: none;
     margin:0; padding: 0; border: 0; cursor: pointer; background: none;
     &::-moz-focus-inner { padding: 0; border: 0; }
 
@@ -136,7 +135,7 @@ $output-bourbon-deprecation-warnings: false;
 }
 
 .slbArrows {
-
+    display: none;
     position: fixed; top: 50%; left: 0; right: 0;
 
     .slbLoading & {
