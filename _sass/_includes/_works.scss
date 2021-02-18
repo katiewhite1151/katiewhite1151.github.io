@@ -128,20 +128,18 @@
   max-height: 100vh;
 }
 
-$button-offset: 50px;
-
 .slick-arrow {
   height:$button-offset;
   width: $button-offset;
   top: 40vh;
   background-size: contain;
   &.slick-next {
-    right: -$button-offset;
+    right: -$button-offset - 30;
     background-image: url('/css/arrow-next.png');
     background-repeat: no-repeat;
   }
   &.slick-prev {
-    left: -$button-offset;
+    left: -$button-offset - 30;
     background-image: url('/css/arrow-prev.png');
     background-repeat: no-repeat;
   }

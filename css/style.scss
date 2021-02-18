@@ -142,6 +142,8 @@ $footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 $overlay-opacity: {{ site.data.settings.grid_settings.overlay_opacity }};
 $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
+// slider
+$button-offset: {{ site.data.settings.slider_settings.button_offset }}px;
 
 
 // - - - - - - - - - - Global styles

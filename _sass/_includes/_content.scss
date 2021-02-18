@@ -77,6 +77,7 @@
 		padding: 50px;
 		@include mq(tabletl) {
 			padding-right: 200px;
+			padding-left: $button-offset + 30px;
 		}
 		@include mq(tabletmax) {
 			padding-right: 150px;
