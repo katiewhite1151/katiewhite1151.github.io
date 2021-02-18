@@ -80,6 +80,8 @@
 		}
 		@include mq(tabletmax) {
 			padding-right: 150px;
+			min-height: auto;
+			max-height: 78vh;
 		}
 		overflow: hidden;
 	}
