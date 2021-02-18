@@ -104,20 +104,25 @@
   max-height: 82vh;
 }
 
-.slick-slide {
-  float: left;
-  height: 100%;
-}
-
 .slick-slider {
   .slick-track {
     height: 100vh;
     height: 100%;
+    display: flex;
   }
   .slick-list {
     max-height: 89vh;
     height: 100vh!important;
   }
+  .slick-slide {
+    float: left;
+    height: 100%;
+    //margin: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
 }
 .single {
   max-height: 100vh;
@@ -126,20 +131,34 @@
 $button-offset: 50px;
 
 .slick-arrow {
-  height: 100px;//100%;
+  height:$button-offset;
   width: $button-offset;
-  top: 14vh;
+  top: 40vh;
+  background-size: contain;
   &.slick-next {
     right: -$button-offset;
+    background-image: url('/css/arrow-next.png');
+    background-repeat: no-repeat;
   }
   &.slick-prev {
     left: -$button-offset;
-}
+    background-image: url('/css/arrow-prev.png');
+    background-repeat: no-repeat;
+  }
+  &:hover, &:focus {
+    background-size: contain;
+  }
   &.slick-prev:before,
   &.slick-next:before {
     opacity: 1;
     color: #C4C4C4;
     font-size: 35px;
+  }
+  &.slick-prev:before {
+    display: none;
+  }
+  &.slick-next:before {
+    display: none;
   }
 }
 .slick-dots {
