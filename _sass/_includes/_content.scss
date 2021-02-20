@@ -51,6 +51,11 @@
 	margin-top: 0;
 	padding: 20px 0;
 	min-height: 100vh;
+	.wrap {
+		@include mq(tabletmax) {
+			padding: 0;
+		}
+	}
 	&.home {
 		padding: 0;
 		overflow: hidden;
@@ -75,16 +80,22 @@
 	}
 	&.works {
 		padding: 50px;
+		overflow: hidden;
 		@include mq(tabletl) {
 			padding-right: 200px;
 			padding-left: $button-offset + 30px;
 		}
-		@include mq(tabletmax) {
-			padding-right: 150px;
-			min-height: auto;
-			max-height: 78vh;
+		@include mq(tabletp) {
+			padding-right: 200px;
+			padding-left: $button-offset + 30px;
 		}
-		overflow: hidden;
+		@include mq(tabletmax) {
+			padding-left: $button-offset + 40px
+		}
+		@include mq(tabletsm) {
+			min-height: auto;
+			max-height: none;
+		}
 	}
 	h1, h2, h3, h4, h5, h6, p, ul, ol {
 		margin-left: auto;

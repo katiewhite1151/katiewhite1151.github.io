@@ -127,6 +127,9 @@
 
 		.gallery__item {
 			width: 33.33%;
+			@include mq(tabletsm) {
+				width: 100%;
+			}
 		}
 	}
 
