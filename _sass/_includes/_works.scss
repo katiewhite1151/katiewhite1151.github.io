@@ -16,9 +16,9 @@
     padding:  40px 8px 10px 8px;
     z-index: 100;
     background: #fff;
-    @include mq(tabletmax) {
-			right: 40px;
-		}
+    @include mq(tabletsm) {
+      display: none;
+    }
     &:hover {
       color: #C4C4C4;
     }
