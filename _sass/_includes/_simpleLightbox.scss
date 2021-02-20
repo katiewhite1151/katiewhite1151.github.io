@@ -37,8 +37,11 @@ $output-bourbon-deprecation-warnings: false;
 .slbContentOuter {
 
     position: relative; display: inline-block; vertical-align: middle;
-    margin: 0px auto; padding: 0 1em; box-sizing: border-box;
+    margin: 0px auto; box-sizing: border-box;
     z-index: 2020; text-align: left; max-width: 100%;
+    padding: 4em;
+    max-height: 100vh;
+    box-sizing: border-box;
 
     .slbContentEl & {
 
@@ -95,6 +98,7 @@ $output-bourbon-deprecation-warnings: false;
     background: #fff;
     border: 1px solid #000;
     border-radius: 2px;
+    max-height: 90vh !important;
 }
 
 .slbCaption {
@@ -103,10 +107,11 @@ $output-bourbon-deprecation-warnings: false;
     //font-size: 1.4em;
     font-size: 17px;
     position: absolute; left: 0; right: 0;
-    bottom: 8px; padding: 00;
+    bottom: 8px; padding: 0;
     text-align: center;
     line-height: 1.4em;
     color: #000000;
+    padding: 7px 0px;
 
 }
 
