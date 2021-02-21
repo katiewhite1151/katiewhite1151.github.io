@@ -128,7 +128,11 @@
 		.gallery__item {
 			width: 33.33%;
 			@include mq(tabletsm) {
+				pointer-events: none;
 				width: 100%;
+				position: relative!important;
+				top: auto!important;
+				left: auto!important;
 			}
 		}
 	}

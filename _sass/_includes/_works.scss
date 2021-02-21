@@ -85,6 +85,10 @@
 .gallery {
   p {
     display: none;
+    @include mq(tabletsm) {
+      text-align: center;
+      display: block;
+    }
   }
 }
 .slick-slider {
