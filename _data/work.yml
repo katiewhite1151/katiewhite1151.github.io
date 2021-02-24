@@ -1,20 +1,3 @@
-selectedTop:
-  - src: 2019-Omen.jpg
-    title: Omen
-    year: 2019
-    materials: Acrylic & paper on canvas
-    dimensions: 40&Prime; x 40&Prime;
-  - src: 2017-Next.jpg
-    title: Next
-    year: 2017
-    materials: 24&Prime; x 18&Prime;
-    dimensions: Paper collage with ink and acrylic
-  - src: kpw-in-studio.png
-    title: Katie in Studio
-    year: 2016
-    materials: Not applicable
-    dimensions: N/A
-
 featured:
   - src: 2017-Collecting-Thoughts-and-Pieces.jpg
     title: Collecting Thoughts and Pieces
@@ -97,9 +80,102 @@ featured:
     materials: Gouache, acrylic and colored pencil on paper
     dimensions: 10&Prime; x 14&Prime;
 
-
-
-selectedBtm:
+selected:
+  - src: 2019-Omen.jpg
+    title: Omen
+    year: 2019
+    materials: Acrylic & paper on canvas
+    dimensions: 40&Prime; x 40&Prime;
+  - src: 2017-Next.jpg
+    title: Next
+    year: 2017
+    materials: 24&Prime; x 18&Prime;
+    dimensions: Paper collage with ink and acrylic
+  - src: kpw-in-studio.png
+    title: Katie in Studio
+    year: 2016
+    materials: Not applicable
+    dimensions: N/A
+  - src: 2017-Collecting-Thoughts-and-Pieces.jpg
+    title: Collecting Thoughts and Pieces
+    year: 2017
+    materials: Paper & acrylic on wood board
+    dimensions: 48&Prime; x 48&Prime;
+  - src: 2017-Flight.jpg
+    title: Flight
+    year: 2017
+    materials: Paper & acrylic on wood board
+    dimensions: 48&Prime; x 48&Prime;
+  - src: 2017-Forge.jpg
+    title: Forge
+    year: 2017
+    materials: Paper & acrylic on canvas
+    dimensions: 48&Prime; x 72&Prime;
+  - src: 2020_CliffsidewithSolarEcclipse.jpg
+    title: Cliffside with Solar Eclipse
+    year: 2020
+    materials: Gouache on paper collage
+    dimensions: 14&Prime; x 18&Prime;
+  - src: 2020_CraterInTheSky.jpg
+    title: Crater in the Sky
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 9&Prime; x 12&Prime;
+  - src: 2020_EarlySummer.jpg
+    title: Early Summer
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 12&Prime; x 12&Prime;
+  - src: 2020_LittlePrince.jpg
+    title: Little Prince
+    year: 2020
+    materials: Gouache on paper collage
+    dimensions: 14&Prime; x 17&Prime;
+  - src: 2020_LuisBarragan1.jpg
+    title: Luis Barragan 1
+    year: 2020
+    materials: Gouache on paper collage
+    dimensions: 15&Prime; x 14&Prime;
+  - src: 2020_LuisBarragan2.jpg
+    title: Luis Barragan 2
+    year: 2020
+    materials: Gouache on paper collage
+    dimensions: 12&Prime; x 18&Prime;
+  - src: 2020_SpringRainstormInAnotherWorld.jpg
+    title: Spring Rainstorm in Another World
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 9&Prime; x 12&Prime;
+  - src: 2020_StackingStones.jpg
+    title: Stacking Stones
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 9&Prime; x 12&Prime;
+  - src: 2020_Untitled0.jpg
+    title: Untitled 0
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 9&Prime; x 12&Prime;
+  - src: 2020_Untitled1.jpg
+    title: Untitled 1
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 12&Prime; x 16&Prime;
+  - src: 2020_Untitled2.jpg
+    title: Untitled 2
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 9&Prime; x 12&Prime;
+  - src: 2020_Untitled3.jpg
+    title: Untitled 3
+    year: 2020
+    materials: Dirt and acrylic on canvas
+    dimensions: 35&Prime; x 48&Prime;
+  - src: 2020_Untitled4.jpg
+    title: Untitled 4
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 10&Prime; x 14&Prime;
   - src: 2017-Looking-up-from-the-Canyon-Floor.jpg
     title: Looking up from the Canyon Floor
     year: 2017
