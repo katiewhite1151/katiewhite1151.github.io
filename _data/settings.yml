@@ -13,8 +13,6 @@ menu_settings:
       url: '/'
     - title: 'Selected Works'
       url: '/selected-works'
-    - title: 'Spring 2021 Virtual Show'
-      url: '/show'
     - title: 'About'
       url: '/about'
 
