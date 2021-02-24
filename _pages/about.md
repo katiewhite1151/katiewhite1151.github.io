@@ -15,4 +15,4 @@ Katie Porter White received her BFA in Studio Art from Yale University, studied 
 
 <br>
 
-Contact: katieporterwhite@gmail.com
+<b>Contact: katieporterwhite@gmail.com</b>
