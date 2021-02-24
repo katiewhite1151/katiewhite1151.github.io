@@ -17,7 +17,11 @@ type: show
 
 <p> Very excited to bring everyone together to see some of Katie's most recent works.</p>
 <p> These works explore atmospheres, color and architecture... etc. </p>
+<p> A catalog of all the works in this show is available <a href="https://artspaces.kunstmatrix.com/en/exhibition/4827199/catalog"> here </a>.</p>
+
 <p> Some works are available for sale -- please contact Doug (either via email or using the in-platform messaging feature). First come first serve basis. </p>
+
+<br>
 
 <b> About the virtual exhibition </b>
 
@@ -26,6 +30,7 @@ type: show
   <li> Guided tour </li>
   <li> Walk around yourself </li>
   <li> Full screen </li>
-  <li> Sound on! </li>
-<p> Works for sale - explain how this works and how to get more info / contact</p>
+  <li> Sound? </li>
 </ul>
+
+<p> Works for sale - explain how this works and how to get more info / contact</p>
