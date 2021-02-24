@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Katie Porter White
-  site_tagline: 
+  site_tagline:
   favicon_image: /images/2favicon.png
 
 header_settings:
@@ -11,10 +11,11 @@ menu_settings:
   menu_items:
     - title: 'Home'
       url: '/'
-    - title: 'About'
-      url: '/about'
     - title: 'Selected Works'
       url: '/selected-works'
+    - title: 'About'
+      url: '/about'
+
 
 grid_settings:
   overlay_opacity: 0.8
