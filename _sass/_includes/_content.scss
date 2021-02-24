@@ -80,7 +80,8 @@
 	}
 	&.works {
 		padding: 50px;
-		overflow: hidden;
+		//overflow: hidden;
+		max-height: none;
 		@include mq(tabletl) {
 			padding-right: 200px;
 			padding-left: $button-offset + 30px;
