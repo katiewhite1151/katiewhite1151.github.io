@@ -33,4 +33,4 @@ type: show
   <li> Sound? </li>
 </ul>
 
-<p> Works for sale - explain how this works and how to get more info / contact</p>
+<p> Works for sale - explain how this works and how to get more info / contact. Also note that all works will be unframed unless noted otherwise.</p>
