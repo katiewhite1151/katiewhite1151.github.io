@@ -56,7 +56,7 @@ selected:
     year: 2020
     materials: Gouache, acrylic and colored pencil on paper
     dimensions: 9&Prime; x 12&Prime;
-  - src: 2020_EarlySummer.png
+  - src: 2020_EarlySummer.jpg
     title: Early Summer
     year: 2020
     materials: Gouache, acrylic and colored pencil on paper
@@ -66,32 +66,32 @@ selected:
     year: 2020
     materials: Gouache on paper collage
     dimensions: 14&Prime; x 17&Prime;
-  - src: 2020_LuisBarragan1.png
+  - src: 2020_LuisBarragan1.jpg
     title: Luis Barragan 1
     year: 2020
     materials: Gouache on paper collage
     dimensions: 15&Prime; x 14&Prime;
-  - src: 2020_LuisBarragan2.png
+  - src: 2020_LuisBarragan2.jpg
     title: Luis Barragan 2
     year: 2020
     materials: Gouache on paper collage
     dimensions: 12&Prime; x 18&Prime;
-  - src: 2020_SpringRainstormInAnotherWorld.png
+  - src: 2020_SpringRainstormInAnotherWorld.jpg
     title: Spring Rainstorm in Another World
     year: 2020
     materials: Gouache, acrylic and colored pencil on paper
     dimensions: 9&Prime; x 12&Prime;
-  - src: 2020_StackingStones.png
+  - src: 2020_StackingStones.jpg
     title: Stacking Stones
     year: 2020
     materials: Gouache, acrylic and colored pencil on paper
     dimensions: 9&Prime; x 12&Prime;
-  - src: 2020_Untitled0.png
+  - src: 2020_Untitled0.jpg
     title: Untitled 0
     year: 2020
     materials: Gouache, acrylic and colored pencil on paper
     dimensions: 9&Prime; x 12&Prime;
-  - src: 2020_Untitled1.png
+  - src: 2020_Untitled1.jpg
     title: Untitled 1
     year: 2020
     materials: Gouache, acrylic and colored pencil on paper
@@ -108,6 +108,27 @@ selected:
     dimensions: 35&Prime; x 48&Prime;
   - src: 2020_Untitled4.jpg
     title: Untitled 4
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 10&Prime; x 14&Prime;
+
+  - src: 2020_Untitled5.jpg
+    title: Untitled 5
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 10&Prime; x 14&Prime;
+  - src: 2020_Untitled6.jpg
+    title: Untitled 6
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 10&Prime; x 14&Prime;
+  - src: 2020_Untitled7.jpg
+    title: Untitled 7
+    year: 2020
+    materials: Gouache, acrylic and colored pencil on paper
+    dimensions: 10&Prime; x 14&Prime;
+  - src: 2020_Untitled8.jpg
+    title: Untitled 8
     year: 2020
     materials: Gouache, acrylic and colored pencil on paper
     dimensions: 10&Prime; x 14&Prime;
