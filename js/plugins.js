@@ -8,6 +8,8 @@
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Plugins
 
+// @codekit-prepend "/plugins/slick.min.js"
+// @codekit-prepend "/plugins/simpleLightbox.js"
 // @codekit-prepend "/plugins/history.js"
 // @codekit-prepend "/plugins/imagesloaded.js"
 // @codekit-prepend "/plugins/masonry.js"
