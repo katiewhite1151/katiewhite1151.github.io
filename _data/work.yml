@@ -4,7 +4,7 @@ featured:
     year: 2017
     materials: Paper & acrylic on wood board
     dimensions: 48&Prime; x 48&Prime;
-  - src: 2017-Flight.jpg
+  - src: 2017-Flight.jpeg
     title: Flight
     year: 2017
     materials: Paper & acrylic on wood board
@@ -36,7 +36,7 @@ selected:
     year: 2017
     materials: Paper & acrylic on wood board
     dimensions: 48&Prime; x 48&Prime;
-  - src: 2017-Flight.jpg
+  - src: 2017-Flight.jpeg
     title: Flight
     year: 2017
     materials: Paper & acrylic on wood board
@@ -126,3 +126,13 @@ selected:
     year: 2011
     materials: Charcoal on paper
     dimensions: 36&Prime; x 72&Prime;
+  - src: 2016-Chair.jpeg
+    title: Chair
+    year: 2016
+    materials: Acrylic on canvas
+    dimensions: 36&Prime; x 36&Prime;
+  - src: 2016-Abstract1.jpeg
+    title: Abstract #1
+    year: 2016
+    materials: Acrylic on paper
+    dimensions: 5&Prime; x 7&Prime;
