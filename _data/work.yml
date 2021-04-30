@@ -21,12 +21,7 @@ featured:
     dimensions: N/A
 
 selected:
-  
-  - src: 2018_Whee1.jpg
-    title: Whee 1
-    year: 2018
-    materials: Acrylic paint and paper on canvas
-    dimensions: 66&Prime; x 42&Prime;
+
 
   - src: 2018_Whee2.jpg
     title: Whee 2
@@ -40,11 +35,17 @@ selected:
     materials: Dirt and acrylic paint on canvas
     dimensions: 34&Prime; x 48&Prime;
 
-  - src: 2019_Dots1.jpg
-    title: Dots 1
-    year: 2019
-    materials: Dye and acrylic paint on unstretched canvas
-    dimensions: 42&Prime; x 57&Prime;
+  - src: 2017-Next.jpg
+    title: Next
+    year: 2017
+    materials: 24&Prime; x 18&Prime;
+    dimensions: Paper collage with ink and acrylic
+  
+  - src: 2018_Whee1.jpg
+    title: Whee 1
+    year: 2018
+    materials: Acrylic paint and paper on canvas
+    dimensions: 66&Prime; x 42&Prime;
 
   - src: 2019_Dots2.jpg
     title: Dots 2
@@ -63,6 +64,12 @@ selected:
     year: 2021
     materials: Acrylic paint, embroidery, and felt on unstretched canvas
     dimensions: 72&Prime; x 60&Prime;
+
+  - src: 2019_Dots1.jpg
+    title: Dots 1
+    year: 2019
+    materials: Dye and acrylic paint on unstretched canvas
+    dimensions: 42&Prime; x 57&Prime;
 
   - src: 2021_CourtyardintheSummer.jpg
     title: Courtyard in the Summer
@@ -93,12 +100,6 @@ selected:
     year: 2019
     materials: Acrylic & paper on canvas
     dimensions: 40&Prime; x 40&Prime;
-
-  - src: 2017-Next.jpg
-    title: Next
-    year: 2017
-    materials: 24&Prime; x 18&Prime;
-    dimensions: Paper collage with ink and acrylic
 
   - src: 2017-Collecting-Thoughts-and-Pieces.jpg
     title: Collecting Thoughts and Pieces
