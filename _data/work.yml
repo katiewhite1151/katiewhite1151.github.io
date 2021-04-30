@@ -1,11 +1,5 @@
 featured:
 
-  - src: 2017-Collecting-Thoughts-and-Pieces.jpg
-    title: Collecting Thoughts and Pieces
-    year: 2017
-    materials: Paper & acrylic on wood board
-    dimensions: 48&Prime; x 48&Prime;
-
   - src: 2020_Untitled0.jpg
     title: Untitled 0
     year: 2020
@@ -35,6 +29,12 @@ featured:
     year: 2020
     materials: Gouache, acrylic and colored pencil on paper
     dimensions: 9&Prime; x 12&Prime;
+
+  - src: 2017-Collecting-Thoughts-and-Pieces.jpg
+    title: Collecting Thoughts and Pieces
+    year: 2017
+    materials: Paper & acrylic on wood board
+    dimensions: 48&Prime; x 48&Prime;
 
   - src: kpw-in-studio.png
     title: Katie in Studio
