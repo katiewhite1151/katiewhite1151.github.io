@@ -45,6 +45,71 @@ featured:
 
 selected:
 
+  - src: 20220201-1.jpg
+    title: Courtyard
+    year: 2021
+    materials: Wool on unstretched canvas
+    dimensions: 69&Prime; x 69&Prime;
+
+  - src: 20220201-2.jpg
+    title: Scales
+    year: 2021
+    materials: Painted paper on canvas
+    dimensions: 58&Prime; x 67&Prime;
+
+  - src: 20220201-3.jpg
+    title: Wild Thing
+    year: 2021
+    materials: Painted paper on canvas
+    dimensions: 69&Prime; x 69&Prime;
+
+  - src: 20220201-4.jpg
+    title: Orange Slice
+    year: 2022
+    materials: Wool on linen
+    dimensions: 60&Prime; x 72&Prime;
+
+  - src: 20220201-5.jpg
+    title: Spring
+    year: 2022
+    materials: Wool on canvas
+    dimensions: 40&Prime; x 60&Prime;
+
+  - src: 20220201-6.jpg
+    title: Untitled
+    year: 2022
+    materials: Wool on linen
+    dimensions: 42&Prime; x 62&Prime;
+
+  - src: 20220201-7.jpg
+    title: Cinque Terre 2
+    year: 2022
+    materials: Wool on canvas
+    dimensions: 50&Prime; x 60&Prime;
+
+  - src: 20220201-8.jpg
+    title: Untitled
+    year: 2020
+    materials: Gouache and pencil on paper
+    dimensions: 9&Prime; x 12&Prime;
+
+  - src: 20220201-9.jpg
+    title: Untitled
+    year: 2020
+    materials: Gouache and pencil on paper
+    dimensions: 9&Prime; x 12&Prime;     
+
+  - src: 20220201-10.jpg
+    title: Boxes
+    year: 2018
+    materials: Painted paper
+    dimensions:      
+
+  - src: 20220201-11.jpg
+    title: Box
+    year: 2018
+    materials: Painted paper
+    dimensions: 
 
   - src: 2018_Whee2.jpg
     title: Whee 2
@@ -81,12 +146,6 @@ selected:
     year: 2021
     materials: Felt on unstretched linen
     dimensions: 50&Prime; x 70&Prime;
-
-  - src: 2021_BeetleandHisForest.jpg
-    title: Beetle and his Forest
-    year: 2021
-    materials: Acrylic paint, embroidery, and felt on unstretched canvas
-    dimensions: 72&Prime; x 60&Prime;
 
   - src: 2019_Dots1.jpg
     title: Dots 1
