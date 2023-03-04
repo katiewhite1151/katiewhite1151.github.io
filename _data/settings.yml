@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Katie White
+  site_title: Katie Porter White
   site_tagline:
   favicon_image: /images/2favicon.png
 
@@ -89,9 +89,9 @@ font_settings:
     letter_spacing: 0
     line_height: 1.5
   menu:
-    small_size: 30
-    medium_size: 15
-    large_size: 16
+    small_size: 10
+    medium_size: 12
+    large_size: 14
     weight: 500
     letter_spacing: 0
   grid_item_title:
@@ -149,16 +149,16 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 16
-    medium_size: 18
-    large_size: 20
+    small_size: 12
+    medium_size: 15
+    large_size: 16
     weight: 300
     letter_spacing: 0
     line_height: 1.6
   blockquote:
-    small_size: 25
-    medium_size: 35
-    large_size: 45
+    small_size: 20
+    medium_size: 30
+    large_size: 40
     weight: 300
     letter_spacing: -0.02
     line_height: 1.6
