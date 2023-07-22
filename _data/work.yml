@@ -12,24 +12,17 @@ featured:
     materials: Wool on linen
     dimensions: 60&Prime; x 72&Prime;
 
-  - src: 20220201-3.jpg
-    title: Wild Thing
-    year: 2021
-    materials: Painted paper on canvas
-    dimensions: 69&Prime; x 69&Prime;
-  
-  - src: 2023 - Red Horse.jpg
-    title: Red Horse
-    year: 2023
-    materials: Wool on linen
-    dimensions: 24&Prime; x 36&Prime;
-
   - src: 2023 - Flower.jpg
     title: Flower
     year: 2023
     materials: Wool on linen
     dimensions: 24&Prime; x 36&Prime;
 
+  - src: 2023 - Red Horse.jpg
+    title: Red Horse
+    year: 2023
+    materials: Wool on linen
+    dimensions: 24&Prime; x 36&Prime;
 
 selected:
 
@@ -56,6 +49,42 @@ selected:
     year: 2022
     materials: Wool on linen
     dimensions: 60&Prime; x 72&Prime;
+
+  - src: 2023 - Flower.jpg
+    title: Flower
+    year: 2023
+    materials: Wool on linen
+    dimensions: 24&Prime; x 36&Prime;
+
+  - src: 2023 - Red Horse.jpg
+    title: Red Horse
+    year: 2023
+    materials: Wool on linen
+    dimensions: 24&Prime; x 36&Prime;
+
+-   src: 2023 - Dog in Field.jpg
+    title: Dog in Field
+    year: 2023
+    materials: Wool on linen
+    dimensions: 24&Prime; x 36&Prime;
+
+-   src: 2023 - Expanse.jpg
+    title: Expanse
+    year: 2023
+    materials: Wool on linen
+    dimensions: 24&Prime; x 36&Prime;
+
+-   src: 2023 - Griffon.jpg
+    title: Griffon
+    year: 2023
+    materials: Wool on linen
+    dimensions: 48&Prime; x 48&Prime;
+
+-   src: 2023 - Splash.jpg
+    title: Splash
+    year: 2023
+    materials: Wool on linen
+    dimensions: 36&Prime; x 36&Prime;
 
   - src: 20220201-5.jpg
     title: Spring
@@ -98,6 +127,24 @@ selected:
     year: 2018
     materials: Painted paper
     dimensions: 
+
+-   src: 2018 - Blue Box.jpg
+    title: Blue Box
+    year: 2018
+    materials: Painted Paper 
+    dimensions: 
+
+-   src: 2018 - Yellow Box.jpg
+    title: Yellow Box
+    year: 2018
+    materials: Painted paper 
+    dimensions:
+
+-   src: 2018 - Red Box.jpg
+    title: Red Box
+    year: 2018
+    materials: Painted paper
+    dimensions:
 
   - src: 2018_Whee2.jpg
     title: Whee 2
@@ -215,12 +262,6 @@ selected:
 
   - src: 2020_Untitled5.jpg
     title: Untitled 5
-    year: 2020
-    materials: Gouache, acrylic and colored pencil on paper
-    dimensions: 10&Prime; x 14&Prime;
-
-  - src: 2020_Untitled7.jpg
-    title: Untitled 7
     year: 2020
     materials: Gouache, acrylic and colored pencil on paper
     dimensions: 10&Prime; x 14&Prime;
