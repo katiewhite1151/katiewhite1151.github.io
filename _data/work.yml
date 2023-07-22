@@ -153,12 +153,6 @@ selected:
     materials: Painted paper
     dimensions:
 
-  - src: 2018_Whee2.jpg
-    title: Whee 2
-    year: 2018
-    materials: Acrylic paint and paper on canvas
-    dimensions: 72&Prime; x 48&Prime;
-
   - src: 2021_AGriffinPalace.jpg
     title: A Griffin's Palace
     year: 2021
@@ -171,29 +165,11 @@ selected:
     materials: 24&Prime; x 18&Prime;
     dimensions: Paper collage with ink and acrylic
 
-  - src: 2018_Whee1.jpg
-    title: Whee 1
-    year: 2018
-    materials: Acrylic paint and paper on canvas
-    dimensions: 66&Prime; x 42&Prime;
-
-  - src: 2019_Dots2.jpg
-    title: Dots 2
-    year: 2019
-    materials: Dye and acrylic paint on unstretched canvas
-    dimensions: 55&Prime; x 58&Prime;
-
   - src: 2021_Dawn.jpg
     title: Dawn
     year: 2021
     materials: Felt on unstretched linen
     dimensions: 50&Prime; x 70&Prime;
-
-  - src: 2019_Dots1.jpg
-    title: Dots 1
-    year: 2019
-    materials: Dye and acrylic paint on unstretched canvas
-    dimensions: 42&Prime; x 57&Prime;
     
   - src: 2021_Prince2.jpg
     title: Echo
